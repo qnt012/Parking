@@ -1,0 +1,4 @@
+# Project exclude paths
+.idea
+parking.iml
+/target
