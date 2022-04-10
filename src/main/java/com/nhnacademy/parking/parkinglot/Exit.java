@@ -14,7 +14,7 @@ public class Exit {
 
         if (day > 0) {
             dayFeeAmount += 10000 * day;
-            hour -= 24;
+            hour -= (24 * day);
         }
 
         int amount = 1000;
